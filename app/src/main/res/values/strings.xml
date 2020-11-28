@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">用户登录</string>
+    <string name="app2_name">用户注册</string>
+    <string name="button1_name">登录</string>
+    <string name="button2_name">注册</string>
+    <string name="todo">TODO</string>
+    <string name="abc">请输入密码</string>
+    <string name="bcd">TODO</string>
+    <string name="io">请确认密码</string>
+    <string name="oi">请输入用户名</string>
+    <string name="po">请输入用户名</string>
+    <string name="op">用户名：</string>
+    <string name="dp">密码：</string>
+    <string name="pd">请输入密码</string>
+    <string name="buttonOK_name">确认</string>
+</resources>

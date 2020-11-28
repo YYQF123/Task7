@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterMainActivity">
+
+    <Button
+        android:id="@+id/button_ok2"
+        android:layout_width="258dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="32dp"
+        android:background="#fff125"
+        android:text="@string/buttonOK_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText4" />
+
+    <EditText
+        android:id="@+id/editText8"
+        android:layout_width="226dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="16dp"
+        android:autofillHints=""
+        android:background="@null"
+        android:ems="10"
+        android:hint="@string/oi"
+        android:inputType="textMultiLine|textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/editText5"
+        app:layout_constraintEnd_toEndOf="@+id/editText5"
+        app:layout_constraintStart_toStartOf="@+id/editText5" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="226dp"
+        android:layout_height="45dp"
+        android:autofillHints=""
+        android:background="@null"
+        android:ems="10"
+        android:hint="@string/io"
+        android:inputType="textMultiLine|textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.67"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.48000002" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="226dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="16dp"
+        android:autofillHints=""
+        android:background="@null"
+        android:ems="10"
+        android:hint="@string/abc"
+        android:inputType="textMultiLine|textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/editText4"
+        app:layout_constraintEnd_toEndOf="@+id/editText4"
+        app:layout_constraintStart_toStartOf="@+id/editText4" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="57dp"
+        android:layout_height="45dp"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/login2"
+        app:layout_constraintBottom_toBottomOf="@+id/editText8"
+        app:layout_constraintEnd_toStartOf="@+id/editText8"
+        app:layout_constraintTop_toTopOf="@+id/editText8" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="57dp"
+        android:layout_height="45dp"
+        android:contentDescription="@string/bcd"
+        android:src="@drawable/mima"
+        app:layout_constraintBottom_toBottomOf="@+id/editText5"
+        app:layout_constraintEnd_toStartOf="@+id/editText5"
+        app:layout_constraintTop_toTopOf="@+id/editText5" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="57dp"
+        android:layout_height="45dp"
+        android:contentDescription="@string/bcd"
+        android:src="@drawable/mima"
+        app:layout_constraintBottom_toBottomOf="@+id/editText4"
+        app:layout_constraintEnd_toStartOf="@+id/editText4"
+        app:layout_constraintTop_toTopOf="@+id/editText4" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
